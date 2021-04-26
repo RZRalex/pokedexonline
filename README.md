@@ -13,6 +13,8 @@ Notes:
 -Promises are an interesting tool to really help out with quantaties of data from an Ajax call.
 
 -Pokemon #259 Marshtomp is giving back an error in its API call. This causes the Gen III Hoenn region list to not populate the inital set. You can still call the next or previous groups, but anything that is, or contains Pokemon #259 will not show results.
+4/25/2021  _UPDATE_   I see now that the Marshtomp issue has been resolved. Hoenn region pokemon should show up normally on all browsers now.
+
 -There is a small issue that sometimes the search functionality will not work as scripted. The search bar and button should not attempt to refresh or change the entire page as a 'preventDefault' action is scripted. Their main function is to clear cards and insert the specified pokecard. 
 
 -The Show all button has no connection and function, please do not try to make it work. It is meant as a joke I do not want to lose connection to the api.
@@ -20,3 +22,4 @@ Notes:
 
 
         Please have fun with looking up your Pokemon!
+        
