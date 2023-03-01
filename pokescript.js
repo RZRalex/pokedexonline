@@ -89,7 +89,7 @@ $(document).ready(function(){
     });
 
     $('.rando').click(function(){
-        num1 = (Math.ceil(Math.random()*894));
+        num1 = (Math.ceil(Math.random()*1010));
         num2 = num1;
         if ($('#clearcontrol').is(':checked')){
             clearcards();
